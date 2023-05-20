@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+<body>
+    <div id="intro">
+        <h2>Metric/Imperial Unit Conversion</h2>
+        <input type="number" min="0"/>
+        <br />
+        <button>Convert</button>
+    </div>
+
+    <div id="calculate">
+        <div class="messure">
+            <h3 class="name">Length (Meter/Feet)</h3>
+            <p id="length" class="parameter"></p>
+        </div>
+        <div class="messure">
+            <h3 class="name">Volume (Liters/Gallons)</h3>
+            <p id="volume" class="parameter"></p>
+        </div>
+        <div id ="last" class="messure">
+            <h3 class="name">Mass (Kilograms/Pounds)</h3>
+            <p id="mass" class="parameter"></p>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
